@@ -23,6 +23,7 @@
   * [Getting Started & Fetching Data from the GSPL](gspl/getting-started-and-fetching-data-from-the-gspl.md)
   * [Composing with the GSPL](gspl/composing-with-the-gspl.md)
 * [Vine](vine/README.md)
+  * [About](vine/about.md)
   * [Dashboard](vine/dashboard.md)
   * [Vine v1](vine/vine-v1.md)
   * [Vine v2](vine/vine-v2.md)
