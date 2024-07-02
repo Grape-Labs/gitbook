@@ -13,6 +13,7 @@
     * [Metrics](governance-ui/dao/metrics.md)
     * [Realtime](governance-ui/dao/realtime.md)
   * [Installation](governance-ui/installation.md)
+  * [About](governance-ui/about.md)
 * [GSPL](gspl/README.md)
   * [GSPL Explainer & Use Cases](gspl/gspl-explainer-and-use-cases.md)
   * [How GSPL Works](gspl/how-gspl-works.md)
