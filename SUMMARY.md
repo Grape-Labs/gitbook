@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Governance UI](README.md)
+  * [About](governance-ui/about.md)
   * [Directory](governance-ui/directory.md)
   * [DAO](governance-ui/dao/README.md)
     * [Proposals](governance-ui/dao/proposals/README.md)
@@ -13,8 +14,8 @@
     * [Metrics](governance-ui/dao/metrics.md)
     * [Realtime](governance-ui/dao/realtime.md)
   * [Installation](governance-ui/installation.md)
-  * [About](governance-ui/about.md)
 * [GSPL](gspl/README.md)
+  * [About](gspl/about.md)
   * [GSPL Explainer & Use Cases](gspl/gspl-explainer-and-use-cases.md)
   * [How GSPL Works](gspl/how-gspl-works.md)
   * [Program Address & Links](gspl/program-address-and-links.md)
