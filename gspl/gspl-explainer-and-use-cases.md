@@ -18,6 +18,10 @@ The Grape Solana Program Library (GSPL) is an innovative on-chain program built 
   - Scalability: The scalability of the Solana blockchain ensures that GSPL can efficiently handle a growing number of DAOs and listings.
   - Transparency: The on-chain nature of the program allows anyone to verify the authenticity and immutability of the DAO's listing data.
 
+### GSPL Listing Workflow
+
+<figure><img src="../.gitbook/assets/listing_request_flow.png" alt=""><figcaption><p>A brief overview of the GSPL Listing Workflow</p></figcaption></figure>
+
 ### Benefits for DAOs
 
 - Improved Organization: GSPL provides a structured way for DAOs to manage their listings, enhancing information accessibility and clarity.
