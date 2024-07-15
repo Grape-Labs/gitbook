@@ -17,16 +17,20 @@ GovBoardingConfig is initialized through the createConfig instruction. This inst
 - config: The public key representing the unique identifier of the created root directory, acting as a namespace for associated governance entries.
 - admin: The public key of the administrator responsible for overseeing and approving governance-related actions, such as managing listing approvals, within this configuration.
 - verifierRealm: The public key address that references the parent DAO, acting as the overarching governance structure for this configuration, potentially inheriting certain rules or permissions.
+- verifier: The account signer and fee payer for the GovBoardingConfig creation.  This account serves as the gatekeeper, ensuring that changes to the configuration are authorized and aligned with the GovBoarding structure.  It provides an additional layer of security and control over the fundamental settings.
 
 ### updateAdmin
 
-The updateAdmin instruction is responsible for modifying the admin associated with a given GovBoardingConfig.  This allows an exisitng GovBoardingConifg to change the authority that approves or denies listing-related actions within that specific configuration.  In order to update the admin the required accounts are the following:
+The updateAdmin instruction is responsible for modifying the admin associated with a given GovBoardingConfig.  This allows an exisitng GovBoardingConifg to change the authority that approves or denies listing-related actions within that specific configuration.  In order to update the admin, authorization is required from the current verifier to prevent unauthorized changes. Listed below are the key accounts for updateAdmin:
 
 - config: The public key address that identifies the existing created GovBoardingConfig root entry.
 - admin: The public key address of the existing administrator.
 - newAdmin: The publick key address of the new adminstrator tha the specific config needs to be changed to.
+- verifier: The account signer and fee payer that typically is also the GovBoardingConfig creator.
 
 ### updateVerifier
+
+The updateVerifier instruction is designed to modify the Verifier account associated with a GovBoardingConfig. This allows the DAO to change the entity responsible for authorizing modifications to the configuration.
 
 ### Additional considerations for GovBoardingConfig
   - Security: The admin public key should be carefully managed to prevent unauthorized access and modifications to the DAO's governance structure.
