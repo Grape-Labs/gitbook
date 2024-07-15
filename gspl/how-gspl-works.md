@@ -20,6 +20,12 @@ GovBoardingConfig is initialized through the createConfig instruction. This inst
 
 ### updateAdmin
 
+The updateAdmin instruction is responsible for modifying the admin associated with a given GovBoardingConfig.  This allows an exisitng GovBoardingConifg to change the authority that approves or denies listing-related actions within that specific configuration.  In order to update the admin the required accounts are the following:
+
+- config: The public key address that identifies the existing created GovBoardingConfig root entry.
+- admin: The public key address of the existing administrator.
+- newAdmin: The publick key address of the new adminstrator tha the specific config needs to be changed to.
+
 ### updateVerifier
 
 ### Additional considerations for GovBoardingConfig
