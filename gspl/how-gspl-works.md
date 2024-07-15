@@ -34,14 +34,26 @@ The updateVerifier instruction is designed to modify the Verifier account associ
 
 - admin: The public key address of the existing administrator and in this case the signer and fee payer of the transaction.
 - config: The public key address that identifies the existing created GovbBoardingConfig root entry.
-- verifier: The new verifier public address of the verifier that will be associated with the specific GobBoardingConfig.
+- verifier: The new verifier public address of the verifier that will be associated with the specific GovBoardingConfig.
 - verifierType: ?
 
-
-
 ### Additional considerations for GovBoardingConfig
+
   - Security: The admin public key should be carefully managed to prevent unauthorized access and modifications to the DAO's governance structure.
   - Flexibility: The verifierRealm concept allows for nested governance structures, enabling hierarchical or federated DAO models.
   - Governance Rules: While not explicitly mentioned in the GovBoardingConfig, the creation of this configuration often involves defining governance rules, voting mechanisms, and other parameters that dictate how the DAO operates.
 
 ## GovernanceEntry
+
+The GovernanceEntry struct type defines the format for listing a DAO and each entry is essentially a record withing a specific GovBoardingConfig directory.  In consists of the following key fields:
+
+- config: A public key reference to the parent GovBoardingConfig account. This field establishes the hierarchical relationship between the GovernanceEntry and its governing configuration.
+- governanceProgram: A public key identifying the program responsible for handling governance-related logic and interactions for this GovernanceEntry.
+- govAccountType: A string specifying the type or category of the GovernanceEntry, providing context for its purpose within the DAO.  The fields value is of type "DAOType" and can currently hold one of two values, "Social" or "Finance".
+requestStatus: An enum-like field indicating the current status of the GovernanceEntry, such as "pending," "approved," or "rejected."
+rank: A numerical value used to order or prioritize GovernanceEntries within a specific context.
+parentLinks: A complex data structure (likely an array or map) defining relationships between GovernanceEntries, forming a hierarchical or graph-like structure.
+childRealms: A list of public keys representing child GovernanceEntries or sub-DAOs associated with this GovernanceEntry.
+name: A human-readable name or identifier for the GovernanceEntry.
+metadataUri: A URI pointing to additional metadata or information related to the GovernanceEntry, stored off-chain.
+
