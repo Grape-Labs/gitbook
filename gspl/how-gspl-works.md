@@ -10,6 +10,8 @@ The Program is located at address GovyJPza6EV6srUcmwA1vS3EmWGdLSkkDafRE54X1Dir a
 
 By creating a GovBoardingConfig, a DAO lays the groundwork for its governance processes.  GovBoardingConfig is initialized through the createConfig instruction. This instruction establishes a root directory for governance entries and defines key associated accounts:
 
+### Accounts
+
 - config: The public key representing the unique identifier of the created root directory, acting as a namespace for associated governance entries.
 - admin: The public key of the administrator responsible for overseeing and approving governance-related actions, such as managing listing approvals, within this configuration.
 - verifierRealm: The public key address that references the parent DAO, acting as the overarching governance structure for this configuration, potentially inheriting certain rules or permissions.
