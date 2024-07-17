@@ -4,7 +4,7 @@ description: Find out how to quickly fetch verified DAOs from the GSPL
 
 # Getting Started & Fetching Data from the GSPL
 
-### Setting up the SDK
+## Setting up the SDK
 
 ```
 npm install \  
@@ -14,7 +14,7 @@ npm install \
 gspl-directory
 ```
 
-### Initializing the GSPL
+## Initializing the GSPL
 
 ```
 import {createUmi} from "@metaplex-foundation/umi-bundle-defaults"; 
@@ -24,7 +24,7 @@ import {publicKey as UmiPK} from "@metaplex-foundation/umi";
 
 You may need to cast **publicKey** from the metaplex sdk if you are using **publicKey** from **web3** to avoid conflicts, the above shows a simple casting to avoid conflicts
 
-### Fetching the GSPL Directory
+## Fetching the GSPL Directory
 
 Connecting Umi to an RPC is as simple as creating an umi instance and passing through your rpc end point as the first argument. It is recommended to use at least a free RPC end point from one of the many Solana RPC providers and not use the public endpoint of `https://api.mainnet-beta.solana.com` due to it's restrictions and limitations.
 
@@ -39,10 +39,10 @@ To use the getRealms the config public key must be passed, this config identifie
             console.log("Entries ",entries);
 ```
 
-### Example Fetching Summary
+## Example Fetching Summary
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-06-18 at 9.27.32 AM.png" alt=""><figcaption><p>A summary from the on chain GSPL data fetched from the program at https://governance.so</p></figcaption></figure>
 
-### Example Verified DAO
+## Example Verified DAO
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-06-18 at 9.27.53 AM.png" alt=""><figcaption><p>A verification example found on the directory page of https://governance.so fetched from the GSPL</p></figcaption></figure>
