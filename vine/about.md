@@ -6,7 +6,7 @@ VINE was created to track and incentivize active participation within the Grape 
 
 ## Objective
 
-To create a fair, transparent system for rewarding contributions and enhancing engagement ( Can also add extra explanation that it is a fair way of those who participate at later stages/ new user friendly etc.)&#x20;
+The Vine Token was established to foster a fair and transparent system that not only rewards contributions but also enhances community engagement. By ensuring equitable recognition for every participant's efforts, the Vine Token aims to cultivate a vibrant and inclusive ecosystem where contributions are valued, and active involvement is encouraged. Through this innovative approach, the Vine Token seeks to empower individuals and strengthen the bonds within the community, driving collective growth and success.
 
 ## Solution
 
