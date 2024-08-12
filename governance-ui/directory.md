@@ -4,7 +4,7 @@ description: The Governance Directory
 
 # Directory
 
-The Governance Directory was designed to host active DAO's in the Solana ecosystem using SPL Governance, showing realtime latest activity, summary metrics of active DAO's & the list of DAO's to explore
+The Governance Directory was created to serve as a comprehensive hub for active DAOs within the Solana ecosystem utilizing SPL Governance. It provides real-time updates on the latest activities, offers summary metrics for each active DAO, and features an extensive list of DAOs for users to explore. This directory is designed to be a valuable resource, enabling users to easily stay informed about governance activities and discover new DAOs within the Solana network.
 
 ## Directory Page
 
