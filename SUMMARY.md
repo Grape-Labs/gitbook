@@ -14,7 +14,7 @@
       * [Linking to a single DAO wallet](readme/dao/treasury-and-dao-wallet/linking-to-a-single-dao-wallet.md)
       * [Wallet Rules & Options](readme/dao/treasury-and-dao-wallet/wallet-rules-and-options.md)
     * [Proposal Builder & Wallet Tools](governance-ui/dao/proposal-builder-and-wallet-tools.md)
-      * [Creating a Proposal](readme/dao/WI_creating_proposal.md)
+      * [Creating a Proposal](governance-ui/dao/WI_creating_proposal.md)
     * [Metrics](governance-ui/dao/metrics.md)
     * [Realtime](governance-ui/dao/realtime.md)
   * [Installation](governance-ui/installation.md)
