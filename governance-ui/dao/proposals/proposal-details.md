@@ -1,6 +1,8 @@
 # Proposal Details
 
-Proposals can be easily viewed by visiting the DAO page and clicking on any proposal, each DAO has a unique address that can be directly linked to i.e. the Grape DAO Page is [https://www.governance.so/dao/By2sVGZXwfQq6rAiAM3rNPJ9iQfb5e2QhnF4YjJ4Bip](https://www.governance.so/dao/By2sVGZXwfQq6rAiAM3rNPJ9iQfb5e2QhnF4YjJ4Bip)&#x20;
+Proposals can be easily viewed by visiting the DAO page and clicking on any proposal, each DAO has a unique address that can be directly linked to i.e. the Grape DAO Page is
+
+{% embed url="https://www.governance.so/dao/By2sVGZXwfQq6rAiAM3rNPJ9iQfb5e2QhnF4YjJ4Bip" %}
 
 Active proposals are highlighted, whereas completed proposals are greyed out once a proposal has been clicked a prompt will appear showing the proposal details
 
