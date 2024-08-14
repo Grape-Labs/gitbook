@@ -9,3 +9,7 @@ If your wallet is connected but the Voting Options are greyed out then you are n
 <figure><img src="../../../.gitbook/assets/Screenshot 2024-07-15 at 7.11.24 PM.png" alt=""><figcaption><p>The voting options greyed out</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2024-07-15 at 7.12.21 PM.png" alt=""><figcaption><p>The voting options greyed out with votes casted</p></figcaption></figure>
+
+
+
+{% embed url="https://youtube.com/shorts/T9TMFTw1w6w" %}
