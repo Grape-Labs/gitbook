@@ -6,3 +6,4 @@ description: >-
 
 # Governance UI
 
+<figure><img src=".gitbook/assets/governancesocialsplashdocs.png" alt=""><figcaption></figcaption></figure>
