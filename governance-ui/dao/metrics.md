@@ -23,3 +23,13 @@ DAO Governance Rewards can be seen in comparison to the current selected filter 
 Furthermore the table allows you to identify each instance of transfered and granted power that is measured in these metrics by hovering over the respective row in the Awarded column &#x20;
 
 ![](<../../.gitbook/assets/Screenshot 2024-08-16 at 10.06.11 PM.png>)&#x20;
+
+## Advanced Filtering
+
+The metrics table can be filtered even further using the Filter menu
+
+<figure><img src="../../.gitbook/assets/Screenshot 2024-08-16 at 10.08.21 PM.png" alt=""><figcaption></figcaption></figure>
+
+This will allow you to filter and show details for any given DAO member or a custom criteria set if you wish
+
+<figure><img src="../../.gitbook/assets/Screenshot 2024-08-16 at 10.09.19 PM.png" alt=""><figcaption></figcaption></figure>
