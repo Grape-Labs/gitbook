@@ -20,6 +20,7 @@
     * [Proposal Builder & Wallet Tools](governance-ui/dao/proposal-builder-and-wallet-tools.md)
       * [Creating a Proposal](governance-ui/dao/WI\_creating\_proposal.md)
       * [Simple Token Transfer](readme/dao/proposal-builder-and-wallet-tools/simple-token-transfer.md)
+      * [Managing Proposals in Draft State](readme/dao/proposal-builder-and-wallet-tools/managing-proposals-in-draft-state.md)
     * [Metrics](governance-ui/dao/metrics.md)
     * [Realtime](governance-ui/dao/realtime.md)
   * [Installation](governance-ui/installation.md)
