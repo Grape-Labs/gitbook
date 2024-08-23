@@ -6,9 +6,19 @@ The DAO Wallet is a new way of interpreting each respective treasury wallet a DA
 
 {% embed url="https://youtube.com/shorts/xs3sRtt6fPA" %}
 
+The following is an example of a single DAO Wallet, this shows the:
+
+* Wallet Address
+* Balance
+* Primary Wallet Receive / Send Action Buttons
+* SOL balance
+* Additional Action buttons in the lower menu for viewing and managing each wallet
+
 <figure><img src="../../../.gitbook/assets/IMG_0529.jpeg" alt=""><figcaption></figcaption></figure>
 
 ## Finding the wallet address
+
+Pressing the Receive button in the Wallet will bring up a QR & the wallet address which can be easily copied
 
 <div>
 
@@ -21,6 +31,10 @@ The DAO Wallet is a new way of interpreting each respective treasury wallet a DA
 </div>
 
 ## Sending SOL
+
+Sending SOL is very similar as a [Simple Token Transfer](../proposal-builder-and-wallet-tools/simple-token-transfer.md)
+
+Select the amount and recipient & then hit the Send button to prepare a proposal which will be in a voting state, for additional options use the Advanced button to fine tune the proposal
 
 <div>
 
