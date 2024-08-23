@@ -6,9 +6,9 @@ Proposals that are in a Draft state are those that have been created but not sig
 
 * Selecting Rules Wallet to create the proposal from
 * Populating the Title & Description
-* creating the proposal
+* Sending the proposal on chain for creation
 * Inserting Instructions
-* Signing Off Proposal
+* Signing Off Proposal (updating state/status from Draft to Voting)
 * After a proposal has been signed off it is in a voting state, the voting period is defined by the rules wallet
 * At the end of the proposal and successful completion (passing the voting threshold defined by the rules wallet) the proposal can be executed, if there are instructions those can be executed accordingly at this time
 
