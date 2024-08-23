@@ -12,4 +12,6 @@ Each proposal can be quickly expanded by clicking on the caret button on the rig
 * The remaining time
 * The proposal description with support for embedded gist rendering
 
+Beyond the quick expanding, there is another expand button which will expand the proposal to bring up a dialog with the full [proposal details](../../../governance-ui/dao/proposals/proposal-details.md) & this will allow a participant to vote and interact with a proposal from this prompt&#x20;
+
 <figure><img src="../../../.gitbook/assets/IMG_0518 (1).jpeg" alt=""><figcaption></figcaption></figure>
