@@ -38,6 +38,8 @@ The DAO Wallet is a new way of interpreting each respective treasury wallet a DA
 
 ## Sending Tokens
 
+see [Simple Token Transfer in the Proposal Builder & Wallet Tools](../proposal-builder-and-wallet-tools/simple-token-transfer.md)
+
 <figure><img src="../../../.gitbook/assets/Screenshot 2024-08-12 at 10.56.28 PM.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2024-08-12 at 10.57.36 PM.png" alt=""><figcaption></figcaption></figure>
@@ -46,4 +48,4 @@ The DAO Wallet is a new way of interpreting each respective treasury wallet a DA
 
 ## Sending NFTs
 
-This feature is coming soon
+_\*This feature is coming soon_
