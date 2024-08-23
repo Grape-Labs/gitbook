@@ -32,6 +32,8 @@ This will allow more signers to sign off a proposal, this scenario is ideal for 
 
 Proposals that are in a draft state can be easily cancelled using the Cancel button, this will also check if there are any instructions associated with the proposal and if there are any instructions prompt to inform the user that they can remove those instructions to claim back rent for the instructions
 
+<figure><img src="../../../.gitbook/assets/IMG_0531.jpeg" alt=""><figcaption></figcaption></figure>
+
 ## Adding Instructions to a proposal
 
 While in a Draft state, the proposal author (wallet that has created the proposal) can at any time add more instructions, to do so in governance.so press the Draft button in this menu to bring up the proposal editor
