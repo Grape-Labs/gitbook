@@ -2,7 +2,7 @@
 
 ## Viewing Proposal Settings & Draft Tools&#x20;
 
-Proposals that are in a Draft state are those that have been created but not signed off, the sign off process is the last step of the proposal creation, the lifespan of the proposal is:
+Proposals that are in a Draft state are those that have been created but not signed off, the sign off process is the last step of the proposal creation, the lifecycle of the proposal is:
 
 * Selecting Rules Wallet to create the proposal from
 * Populating the Title & Description
