@@ -21,6 +21,7 @@
       * [Creating a Proposal](governance-ui/dao/WI\_creating\_proposal.md)
       * [Simple Token Transfer](readme/dao/proposal-builder-and-wallet-tools/simple-token-transfer.md)
       * [Managing Proposals in Draft State](readme/dao/proposal-builder-and-wallet-tools/managing-proposals-in-draft-state.md)
+      * [Intra DAO: Grant DAO Voting Power](readme/dao/proposal-builder-and-wallet-tools/intra-dao-grant-dao-voting-power.md)
     * [Metrics](governance-ui/dao/metrics.md)
     * [Realtime](governance-ui/dao/realtime.md)
   * [Installation](governance-ui/installation.md)
