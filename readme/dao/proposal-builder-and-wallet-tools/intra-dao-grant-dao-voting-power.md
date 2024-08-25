@@ -37,6 +37,6 @@ Once the token has been selected the options will expand allowing you to set the
 The Destination text area supports adding a single wallet by entering that wallet here, or alternatively adding a comma or tab delimited text (i.e. from a CSV or Excel) that will have the following two fields per column:
 
 * Destination Wallet PublicKey
-* Amount of Tokens to send
+* Amount voting power to grant
 
-If there is no second column but only PublicKeys then the Amount field will be used, and you can use the helper buttons above to set if you would like the amount to be distributed evenly
+If there is no second column but only PublicKeys then the Amount field will be used, and you can use the helper buttons above to set if you would like the amount of voting power to be distributed evenly
