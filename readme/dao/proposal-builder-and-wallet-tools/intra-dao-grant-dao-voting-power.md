@@ -40,3 +40,11 @@ The Destination text area supports adding a single wallet by entering that walle
 * Amount voting power to grant
 
 If there is no second column but only PublicKeys then the Amount field will be used, and you can use the helper buttons above to set if you would like the amount of voting power to be distributed evenly
+
+Once the above has been correctly populated, a summary description will appear showing how much voting power will be granted per wallet and the total voting power that will be allocated
+
+You can press the Preview Instruction and then Add to Proposal to proceed and this will add the granting instructions to the main proposal
+
+You can repeat this process as many times needed or add more instructions before pressing the Save Draft or Create Proposal
+
+_In general for larger proposals it is recommended to Save Draft and then to review the instructions before signing the proposal off_
