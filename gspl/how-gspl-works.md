@@ -63,3 +63,21 @@ The GovernanceEntry struct type defines the format for listing a DAO and each en
 - name: A simple text name or identifier for the GovernanceEntry.
 - metadataUri: A URI pointing to additional metadata or information related to the GovernanceEntry, stored off-chain.
 
+### createEntry
+
+A GovernanceEntry is initialized through the createEntry instruction. This instruction initializes a users governance entry listing request in a specific DAO directory configuration.  This createEntry instruction contains the following key accounts:
+
+- payer: The public key address of the account requesting a listing which is also the signer and fee payer of the transaction.
+- config: The public key address that identifies the existing created GovBoardingConfig Directory for which the payer wishes to associate the listing with.
+- governanceEntry: A struct type that holds all the information described previously in the GovernanceEntry struct type.  Key thins to note with the initial listing request by the person of interest:
+  - The reqestStatus type should contain a 0 value for "Pending".
+  - To avoid confusion the name is unique and should ensure to be set exactly as stated in the respective DAO of the specific governanceProgram.
+- governanceProgram: The public key address of the governace program of which the DAO belongs to (i.e. SPL Governance address GovER5Lthms3bLBqWub97yVrMmEogzX7xNjdXpPPCVZw)
+
+### setEntryStatus
+
+### setEntryUri
+
+### setChildStatus
+
+
