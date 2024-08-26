@@ -65,14 +65,17 @@ The GovernanceEntry struct type defines the format for listing a DAO and each en
 
 ### createEntry
 
-A GovernanceEntry is initialized through the createEntry instruction. This instruction initializes a users governance entry listing request in a specific DAO directory configuration.  This createEntry instruction contains the following key accounts:
+A GovernanceEntry is initialized through the createEntry instruction. This instruction initiates a governance entry listing request within a specific DAO directory.  This instruction requires the following key accounts:
 
-- payer: The public key address of the account requesting a listing which is also the signer and fee payer of the transaction.
-- config: The public key address that identifies the existing created GovBoardingConfig Directory for which the payer wishes to associate the listing with.
-- governanceEntry: A struct type that holds all the information described previously in the GovernanceEntry struct type.  Key thins to note with the initial listing request by the person of interest:
-  - The reqestStatus type should contain a 0 value for "Pending".
-  - To avoid confusion the name is unique and should ensure to be set exactly as stated in the respective DAO of the specific governanceProgram.
+- payer: The public key address of the account initiating the request listing who also serves as the transaction signer and fee payer.
+- config: The public key address of the existing GovBoardingConfig directory where the listing will be associated with.
+- governanceEntry: A structured data type containing detailed information about the listing request. Details on the structure type are mentioned above.
+  - Key things to take into consideration with the values in the governanceEntry struct:
+    - requestStatus: The initial requestStatus should be set to 0 to indicate a "Pending" state.
+    - name: The name field must be unique within the specified DAO directory and should match the exact name used in the DAO's governance program.
 - governanceProgram: The public key address of the governace program of which the DAO belongs to (i.e. SPL Governance address GovER5Lthms3bLBqWub97yVrMmEogzX7xNjdXpPPCVZw)
+
+By providing this information, the createEntry instruction initiates the process of adding a new listing to the DAO's governance structure, subject to approval by the DAO's administrators.
 
 ### setEntryStatus
 
