@@ -1,5 +1,5 @@
 # Extensions
 
-The DAO Wallet supports extension plugins which are integral for all Wallet interactions & can be easily integrated with each wallet. To access the menu for extensions click on the lower left puzzle icon which will bring up the extension plugin menu. As more integartions are added this menu will include support for those additional plugin features.
+All DAO Wallet interactions are built on the extensions plugins & can be easily used with each wallet. From simple token transfers to more complex proposals. The extensions button will allow you to connect with the Grape DAO and get more information on building your own plugin.
 
 <figure><img src="../../../.gitbook/assets/IMG_0515.jpeg" alt=""><figcaption></figcaption></figure>
