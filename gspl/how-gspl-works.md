@@ -79,6 +79,12 @@ By providing this information, the createEntry instruction initiates the process
 
 ### setEntryStatus
 
+The setEntryStatus instruction empowers the verifier to modify the status of GovernanceEntries (listings) within a DAO's configuration.
+
+- Approval: Setting the requestStatus to 1 approves a listing, making it part of the DAO's official records. Associated fees are transferred to the Admin of the directory configuration.
+- Rejected: Setting requestStatus to 2 rejects a listing, returning fees back to listing payer's wallet.
+- Disabled: Setting requestStatus to 3 disables a listing, typically for archiving purposes when a DAO is no longer active.
+
 ### setEntryUri
 
 ### setChildStatus
