@@ -63,3 +63,30 @@ The GovernanceEntry struct type defines the format for listing a DAO and each en
 - name: A simple text name or identifier for the GovernanceEntry.
 - metadataUri: A URI pointing to additional metadata or information related to the GovernanceEntry, stored off-chain.
 
+### createEntry
+
+A GovernanceEntry is initialized through the createEntry instruction. This instruction initiates a governance entry listing request within a specific DAO directory.  This instruction requires the following key accounts:
+
+- payer: The public key address of the account initiating the request listing who also serves as the transaction signer and fee payer.
+- config: The public key address of the existing GovBoardingConfig directory where the listing will be associated with.
+- governanceEntry: A structured data type containing detailed information about the listing request. Details on the structure type are mentioned above.
+  - Key things to take into consideration with the values in the governanceEntry struct:
+    - requestStatus: The initial requestStatus should be set to 0 to indicate a "Pending" state.
+    - name: The name field must be unique within the specified DAO directory and should match the exact name used in the DAO's governance program.
+- governanceProgram: The public key address of the governace program of which the DAO belongs to (i.e. SPL Governance address GovER5Lthms3bLBqWub97yVrMmEogzX7xNjdXpPPCVZw)
+
+By providing this information, the createEntry instruction initiates the process of adding a new listing to the DAO's governance structure, subject to approval by the DAO's administrators.
+
+### setEntryStatus
+
+The setEntryStatus instruction empowers the verifier to modify the status of GovernanceEntries (listings) within a DAO's configuration.
+
+- Approval: Setting the requestStatus to 1 approves a listing, making it part of the DAO's official records. Associated fees are transferred to the Admin of the directory configuration.
+- Rejected: Setting requestStatus to 2 rejects a listing, returning fees back to listing payer's wallet.
+- Disabled: Setting requestStatus to 3 disables a listing, typically for archiving purposes when a DAO is no longer active.
+
+### setEntryUri
+
+### setChildStatus
+
+
