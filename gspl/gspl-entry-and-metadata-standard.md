@@ -4,7 +4,7 @@ description: Get details on a single GSPL entry & the DAO directory metadata sta
 
 # GSPL Entry & Metadata Standard
 
-On chain entry
+## On chain entry
 
 ```
 {
@@ -24,7 +24,7 @@ On chain entry
 }
 ```
 
-Metadata
+## Metadata
 
 ```
 {
