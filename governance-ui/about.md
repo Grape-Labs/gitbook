@@ -14,4 +14,5 @@ The Grape DAO required a system that simplifies the governance process while enh
 
 User centric design, enhanced voting mechanisms with customazible proposal templates, advanced treasury management with useful extensions, user profiles to filter dao's they have voting power, advanced metrics.
 
-![image](https://github.com/user-attachments/assets/7492eda0-8171-4524-847b-4dae4bbd63f8)
+![image](https://github.com/user-attachments/assets/98ae0d3c-4290-4cda-ba20-d2bf01378ac7)
+
