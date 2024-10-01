@@ -42,3 +42,4 @@
   * [Repository](vine/repository.md)
 * [Grape Marketplace / Identity](grape-marketplace-identity.md)
 * [Grape Verification](grape-verification.md)
+* [Join the Grape DAO](join-the-grape-dao.md)
