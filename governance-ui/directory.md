@@ -6,9 +6,6 @@ description: The Governance Directory
 
 The Governance Directory is a comprehensive hub for exploring active DAOs on Solana that utilize the SPL Governance program. It provides real-time insights, historical context, and summary data for each DAO—making it easier for users to stay informed and engaged in the broader governance landscape.
 
-\
-
-
 Designed to support both new and experienced contributors, the directory serves as a centralized resource for discovering, monitoring, and participating in governance across the Solana ecosystem.
 
 ## 🧭 What the Directory Offers
