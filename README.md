@@ -4,7 +4,7 @@ description: Grape has built a new way to learn, grow and collaborate as a DAO o
 
 # Governance UI
 
-<figure><img src=".gitbook/assets/governancesocialsplash.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/governancesocialsplash (1).png" alt=""><figcaption><p>Governance Logo</p></figcaption></figure>
 
 {% embed url="https://www.governance.so" %}
 Governance.so
