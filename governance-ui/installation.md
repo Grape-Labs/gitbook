@@ -1,22 +1,28 @@
 # Installation
 
-Installing Governance.so on your device, it's quick & easy, navigate to https://governance.so there you will see a prompt as shown bellow or a discrete install icon next to the Select Wallet button
+## Installing Governance.so
 
-## Android
+Getting started with [Governance.so](https://governance.so/) is quick and easy. Simply visit the website and you’ll see an installation prompt or a discreet install icon near the Select Wallet button, depending on your platform.
 
-If you are on an Android device a native store prompt will appear with icons and the details of the app, the app provides a mobile full screen experience with the ability to connect your wallet
+## **Android**
 
-## iOS / iPadOS
+If you’re using an Android device, a native prompt will appear offering to install the app via your device’s app store. Once installed, Governance.so runs in full-screen mode and supports wallet connections for a seamless mobile experience.
 
-On iOS or iPadOS instructions will appear to add the device to your homescreen which will instal a PWA of governance.so, this is a near native experience, keep in mind that connecting a wallet is not yet supported in a PWA but on iOS & iPadOS using a Safari connecting a wallet is supported with wallets that support Safari Extensions like Glow. Wallets like Solflare & Phantom provide convenient browsers that allow browsing & connecting the wallet directly from the respective wallet apps
+## **iOS / iPadOS**
 
-## Chrome & Brave
+On iOS or iPadOS, you’ll be guided to add Governance.so to your home screen as a Progressive Web App (PWA). This provides a near-native experience.
 
-The browsers will show an installation prompt, clicking on this will bring up the web store entry with information about the app and the ability to install the app. Once installed this will provide an app experience directly on your computer. Wallets are supported natively when the app has been installed
+> Note: PWAs on iOS/iPadOS currently do not support direct wallet connections. However, you can connect your wallet using Safari with supported extensions (e.g., Glow), or use in-app browsers in wallets like Solflare and Phantom which allow both browsing and wallet connectivity.
 
-## Safari
+## **Chrome & Brave (Desktop)**
 
-On Apple devices, Safari has added support for installable PWA when adding them to your homescreen, there will be detailed instructions that will appear when navigating to Governance.so - once installed by adding to your homescreen it will give a full app experience. At the moment installed PWAs will not connect to wallets, it is expected that this to be supported in the future
+When using Chrome or Brave on desktop, an install prompt will appear. Clicking it opens the Web Store entry where you can install Governance.so as a desktop app. Once installed, the app runs independently and supports native wallet connections.
+
+## **Safari (macOS & iOS)**
+
+Safari now supports PWAs when added to the home screen. When you visit [Governance.so](https://governance.so/), installation instructions will appear. After adding the app to your home screen, it will function in full-screen mode similar to a native app.
+
+> Wallet Support: Currently, installed PWAs on Safari do not support wallet connections, but this feature is expected to be supported in future updates.
 
 
 
