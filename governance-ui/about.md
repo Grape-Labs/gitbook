@@ -1,6 +1,6 @@
 # About
 
-Governance.so was developed to deliver a modern, user-friendly, and powerful interface for DAO governance on Solana. It enhances the standard governance experience by introducing advanced tools, intuitive design, and a focus on usability—whether you’re a new DAO participant or a seasoned contributor.
+[Governance.so](https://governance.so/) was developed to deliver a modern, user-friendly, and powerful interface for DAO governance on Solana. It enhances the standard governance experience by introducing advanced tools, intuitive design, and a focus on usability—whether you’re a new DAO participant or a seasoned contributor.
 
 ## 🧩 The Problem
 
