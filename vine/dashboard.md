@@ -1,8 +1,10 @@
-# Dashboard
+# Dashboard UI
 
-The Vine Token was crafted as a reputation tool specifically designed to reward users participating in the Discord server, effectively bridging the gap between Web2 and Web3 by measuring and recognizing active engagement. During each designated epoch, a new token will be issued, resetting participation and allowing users to continuously build and maintain their reputation. This system ensures that contributions are consistently acknowledged, encouraging ongoing involvement and fostering a thriving, engaged community.
+VINE Reputation is a season-based, on-chain reputation system designed to recognize meaningful participation within the DAO. Each season represents a fresh participation cycle, allowing contributors to continuously earn recognition while preserving historical records. Reputation is non-financial, transparent, and tied directly to governance identity, ensuring contributions are fairly acknowledged over time. This system bridges Web2-style participation tracking with Web3-native accountability, enabling DAOs to reward engagement without inflating governance power.
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FDHzULh55v2hzM3gThDVb%2Fuploads%2FzWAjKixeY96jl8TES4Fk%2FScreenshot%202024-06-20%20at%208.49.49%E2%80%AFAM.png?alt=media&#x26;token=0ad13448-cf84-4593-a144-376d595cf62f" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-12-12 at 4.22.43 PM.png" alt=""><figcaption></figcaption></figure>
+
+
 
 {% embed url="https://vine.governance.so" %}
 

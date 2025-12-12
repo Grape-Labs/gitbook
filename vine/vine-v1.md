@@ -1,7 +1,7 @@
 ---
-description: The first vine token released
+description: The final iteration of vine, representing reputation
 ---
 
-# Vine v1
+# Vine Program ID
 
-Token Address: A6GComqUgUZ7mTqZcDrgnigPEdYDcw5yCumbHaaQxVKK
+Program Address: V1NE6WCWJPRiVFq5DtaN8p87M9DmmUd2zQuVbvLgQwX

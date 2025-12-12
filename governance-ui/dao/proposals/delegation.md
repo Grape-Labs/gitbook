@@ -4,8 +4,7 @@ Delegation allows you to authorize another wallet to vote on your behalf in DAO 
 
 * You manage your tokens on a mobile wallet but prefer to delegate voting from a different device
 * You want a trusted colleague or friend to vote while you’re unavailable
-* You manage multiple accounts and need a consolidated voting strategy\
-
+* You manage multiple accounts and need a consolidated voting strategy<br>
 
 Governance.so makes delegation straightforward and secure.
 

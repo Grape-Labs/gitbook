@@ -1,27 +1,77 @@
 # About
 
-## Purpose
+### Purpose
 
-VINE was created to track and incentivize active participation within the Grape DAO
+VINE Reputation was created to transparently track, recognize, and reward meaningful participation within the Grape DAO and its ecosystem.
 
-## Objective
+Rather than acting as a traditional token, VINE functions as an on-chain reputation system that reflects community contribution over time.
 
-The Vine Token was established to foster a fair and transparent system that not only rewards contributions but also enhances community engagement. By ensuring equitable recognition for every participant's efforts, the Vine Token aims to cultivate a vibrant and inclusive ecosystem where contributions are valued, and active involvement is encouraged. Through this innovative approach, the Vine Token seeks to empower individuals and strengthen the bonds within the community, driving collective growth and success.
+***
 
-## Solution
+### Objective
 
-### **The Need for VINE**
+VINE Reputation is designed to establish a fair, auditable, and season-based recognition framework for DAO participation.
 
-Tracks call participation activity, monitors the frequency and level of activity (S,A,P)&#x20;
+By separating reputation from financial value and anchoring it directly on-chain, VINE ensures that:
 
-### **How was it implemented**
+* Contributions are verifiable
+* Recognition is equitable
+* Governance participation remains transparent
 
-**See** [**Repository**](repository.md)
+The system empowers contributors while preserving flexibility for the DAO to evolve how participation is measured and rewarded.
 
-### **How & when are tokens allocated**
+***
 
-(twice) weekly with the activity level explained above. This regular allocation helps maintain engagement and rewards continuous participatiom&#x20;
+### Solution
 
-### **Points of attention:**
+#### Why VINE Reputation Exists
 
-* Current system requires manual handling and relies on specific dao members for operation. This could be discussed for further automation to reduce dependancy for better scalability.
+DAOs need a way to:
+
+* Measure participation beyond token balance
+* Reward ongoing involvement without long-term inflation
+* Preserve historical contribution data
+* Adapt contribution criteria over time
+
+VINE addresses this by introducing season-based reputation, where each season represents a clean participation ledger.
+
+***
+
+#### How It Works
+
+* Each DAO has its own Reputation Space, derived from its governance ID
+* Reputation is tracked per user, per season
+* New seasons reset participation cleanly
+* Past seasons remain immutable and auditable
+* Reputation can be added, corrected, or transferred by authorized administrators
+
+This design prevents reputation inflation while preserving historical context.
+
+***
+
+#### How & When Reputation Is Allocated
+
+Reputation is typically allocated on a recurring basis (e.g. weekly or bi-weekly), based on predefined participation criteria such as:
+
+* DAO calls
+* Community contributions
+* Governance activity
+
+Allocation logic is flexible and can evolve each season without affecting past records.
+
+***
+
+#### Metadata & Transparency
+
+Each reputation space supports metadata (name, description, icon, links) stored off-chain and cryptographically referenced on-chain, ensuring both flexibility and integrity.
+
+All reputation actions are fully on-chain and publicly verifiable.
+
+***
+
+#### Points of Attention
+
+* VINE Reputation is non-financial and separate from governance tokens
+* Administrative actions are permissioned but auditable
+* The system supports automation and bulk imports (e.g. CSV-based backfills)
+* Designed for scalability across multiple DAOs or working groups
