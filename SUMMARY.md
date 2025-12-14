@@ -37,6 +37,7 @@
   * [About](vine/about.md)
   * [Dashboard UI](vine/dashboard.md)
   * [Vine Reputation Program](vine/dashboard-1.md)
+  * [Vine Reputation Client (NPM)](vine/vine-reputation-client-npm.md)
   * [Vine Program ID](vine/vine-v1.md)
   * [Vine v1](vine/vine-v1-1.md)
   * [Vine v2](vine/vine-v2.md)
