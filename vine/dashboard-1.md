@@ -126,6 +126,120 @@ These operations do not affect other seasons.
 
 ***
 
+### Seasonal Reputation Decay
+
+Vine Reputation uses a seasonal decay model to ensure that reputation reflects _recent participation_ while still honoring historical contributions.
+
+Instead of permanently accumulating reputation forever, older seasons gradually lose influence over time.
+
+***
+
+### Core Concept
+
+Each DAO operates in seasons (integer-based: 1, 2, 3, …).
+
+* Reputation is earned per season
+* Older seasons are discounted using a decay formula
+* The current season always has full weight (1.0)
+
+The effective reputation is the sum of all past seasons after applying decay.
+
+***
+
+### Decay Formula
+
+We store a single decay rate on-chain for the DAO:
+
+```
+decay = 0.30   (30% decay per season)
+```
+
+The weight applied to a season is calculated as:
+
+```
+weight = (1 - decay) ^ seasons_ago
+```
+
+Where:
+
+* seasons\_ago = current\_season - season
+* decay is a value between 0.0 and 1.0
+
+***
+
+### Example
+
+Assume:
+
+* Current season = 3
+* Decay = 30% (0.30)
+* Reputation earned:
+
+| Season | Raw Points |
+| ------ | ---------- |
+| 3      | 95         |
+| 2      | 70         |
+| 1      | 59         |
+
+#### Calculated weights
+
+| Season | Seasons Ago | Weight | Effective      |
+| ------ | ----------- | ------ | -------------- |
+| 3      | 0           | 1.00   | 95 × 1.00 = 95 |
+| 2      | 1           | 0.70   | 70 × 0.70 = 49 |
+| 1      | 2           | 0.49   | 59 × 0.49 ≈ 29 |
+
+#### Totals
+
+```
+Total (raw):     224
+Total (decayed): 173
+```
+
+### Why This Model?
+
+This approach provides:
+
+* Recency bias — recent activity matters more
+* Fairness — early contributors are still rewarded
+* Predictability — simple, transparent math
+* On-chain efficiency — no per-season storage overhead
+* Only raw reputation is stored on-chain.
+* Decay is applied deterministically off-chain (UI, indexer, analytics).
+
+***
+
+### On-Chain vs Off-Chain Responsibilities
+
+\
+On-Chain
+
+* Stores:
+  * Raw reputation per (DAO, user, season)
+  * Current season
+  * Decay rate
+* Guarantees:
+  * Authority control
+  * Season isolation
+  * Data integrity
+
+\
+Off-Chain (UI / Indexer)
+
+* Calculates:
+  * Seasonal weights
+  * Effective reputation
+  * Aggregated totals
+* Displays:
+  * Per-season breakdown
+  * Decayed totals
+  * Historical contribution
+
+\
+This keeps the program cheap, flexible, and future-proof.
+
+***
+
 ### Account Closure
 
 For operational hygiene, the program supports closing:
