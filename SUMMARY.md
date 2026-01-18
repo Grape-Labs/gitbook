@@ -43,6 +43,7 @@
   * [Vine v2](vine/vine-v2.md)
   * [Vine v3](vine/vine-v2-1.md)
   * [Repository](vine/repository.md)
+  * [Vine Discord Bot](vine/vine-discord-bot.md)
 * [Grape Marketplace / Identity](grape-marketplace-identity.md)
 * [Grape Verification](grape-verification.md)
 * [Join the Grape DAO](join-the-grape-dao.md)
