@@ -39,7 +39,6 @@
   * [OG Reputation Program](vine/dashboard-1.md)
   * [OG/Vine Reputation Client (NPM)](vine/og-vine-reputation-client-npm.md)
   * [OG/Vine Program ID](vine/vine-v1.md)
-  * [Repository](vine/repository.md)
   * [OG Discord Bot](vine/og-discord-bot.md)
   * [Historic Token Vine](vine/historic-token-vine/README.md)
     * [Vine v3](vine/historic-token-vine/vine-v2.md)
