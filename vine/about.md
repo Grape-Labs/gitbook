@@ -1,18 +1,20 @@
 # About
 
+<figure><img src="../.gitbook/assets/apple-touch-icon.png" alt=""><figcaption></figcaption></figure>
+
 ### Purpose
 
-VINE Reputation was created to transparently track, recognize, and reward meaningful participation within the Grape DAO and its ecosystem.
+OG Reputation (formerly Vine Reputation) was created to transparently track, recognize, and reward meaningful participation within the Grape DAO and its ecosystem.
 
-Rather than acting as a traditional token, VINE functions as an on-chain reputation system that reflects community contribution over time.
+Rather than acting as a traditional token, OG functions as an on-chain reputation system that reflects community contribution over time.
 
 ***
 
 ### Objective
 
-VINE Reputation is designed to establish a fair, auditable, and season-based recognition framework for DAO participation.
+OG Reputation is designed to establish a fair, auditable, and season-based recognition framework for DAO participation.
 
-By separating reputation from financial value and anchoring it directly on-chain, VINE ensures that:
+By separating reputation from financial value and anchoring it directly on-chain, OG ensures that:
 
 * Contributions are verifiable
 * Recognition is equitable
@@ -24,7 +26,7 @@ The system empowers contributors while preserving flexibility for the DAO to evo
 
 ### Solution
 
-#### Why VINE Reputation Exists
+#### Why OG Reputation Exists
 
 DAOs need a way to:
 
@@ -49,7 +51,7 @@ This design prevents reputation inflation while preserving historical context.
 
 ***
 
-#### How & When Reputation Is Allocated
+#### How & OG Reputation Is Allocated
 
 Reputation is typically allocated on a recurring basis (e.g. weekly or bi-weekly), based on predefined participation criteria such as:
 
@@ -71,7 +73,7 @@ All reputation actions are fully on-chain and publicly verifiable.
 
 #### Points of Attention
 
-* VINE Reputation is non-financial and separate from governance tokens
+* OG Reputation is non-financial and separate from governance tokens
 * Administrative actions are permissioned but auditable
 * The system supports automation and bulk imports (e.g. CSV-based backfills)
 * Designed for scalability across multiple DAOs or working groups

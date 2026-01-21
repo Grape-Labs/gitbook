@@ -1,6 +1,6 @@
-# Vine Discord Bot
+# OG Discord Bot
 
-The Vine Discord Bot enables DAO participation tracking directly inside Discord.
+The OG Discord Bot enables DAO participation tracking directly inside Discord.
 
 It allows communities to check in with Solana wallets, award on-chain participation points, and link a Discord server to a Vine Reputation Space (DAO).
 

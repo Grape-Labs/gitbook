@@ -1,8 +1,8 @@
-# Vine Reputation Program
+# OG Reputation Program
 
 ### Program Scope
 
-The VINE Reputation Program is an on-chain reputation framework designed to manage season-based participation scores for a DAO.
+The OG/VINE Reputation Program is an on-chain reputation framework designed to manage season-based participation scores for a DAO.
 
 It defines:
 

@@ -1,6 +1,6 @@
 # Dashboard UI
 
-VINE Reputation is a season-based, on-chain reputation system that helps DAOs recognize meaningful participation without turning reputation into financial value or increasing governance power. Reputation is tied to governance identity (wallet), is transparent, and is designed to be resettable by season while keeping historical context.
+OG Reputation is a season-based, on-chain reputation system that helps DAOs recognize meaningful participation without turning reputation into financial value or increasing governance power. Reputation is tied to governance identity (wallet), is transparent, and is designed to be resettable by season while keeping historical context.
 
 Think of it as a Web3-native participation layer: track, reward, and showcase contribution over time—without minting a “power token.”
 
@@ -73,7 +73,7 @@ Randomizer (optional UI section)
 
 ***
 
-### Why DAOs use Vine
+### Why DAOs use OG Reputation
 
 * Recognize contribution without financializing reputation
 * Seasonal structure for recurring incentives and clean cycles
@@ -83,7 +83,11 @@ Randomizer (optional UI section)
 
 
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-12-19 at 4.37.12 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-01-21 at 11.18.14 AM.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-01-21 at 11.18.36 AM.png" alt=""><figcaption></figcaption></figure>
+
+
 
 {% embed url="https://vine.governance.so" %}
 
