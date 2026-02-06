@@ -1,4 +1,4 @@
-# Vine Reputation Client (NPM)
+# OG/Vine Reputation Client (NPM)
 
 We’ve released an official Vine Reputation JavaScript client on NPM to make integrating reputation into apps, dashboards, and DAOs simple, composable, and framework-agnostic.
 
@@ -51,10 +51,8 @@ Program Info
 import { VINE_REP_PROGRAM_ID } from "@grapenpm/vine-reputation-client";
 ```
 
-* Network: Devnet (Mainnet coming)
-*   Program ID:
-
-    V1NE6WCWJPRiVFq5DtaN8p87M9DmmUd2zQuVbvLgQwX
+* Network: Mainnet & Devnet Support
+* Program ID: V1NE6WCWJPRiVFq5DtaN8p87M9DmmUd2zQuVbvLgQwX
 
 ***
 
