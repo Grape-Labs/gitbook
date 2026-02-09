@@ -658,7 +658,7 @@ if (isFrozen) {
 
 **Program ID**: `VrFyyRxPoyWxpABpBXU4YUCCF9p8giDSJUv2oXfDr5q`
 
-**Deployed**: February 2024
+**Deployed**: February 2026
 
 **Upgrade Authority**: Grape DAO multisig
 
