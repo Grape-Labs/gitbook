@@ -268,7 +268,7 @@ Check with each community about their bot's data practices.
 npm install @grapenpm/grape-verification-registry
 ```
 
-See the [Developer Guide](https://claude.ai/chat/developer-guide.md) for full integration instructions.
+See the [Developer Guide](developer-guide.md) for full integration instructions.
 
 #### What RPC provider should I use?
 
@@ -298,7 +298,7 @@ import { isUserVerified } from '@grapenpm/grape-verification-registry';
 const verified = await isUserVerified(connection, discordId, daoId);
 ```
 
-Full example in [Developer Guide](https://claude.ai/chat/developer-guide.md).
+Full example in [Developer Guide](developer-guide.md).
 
 #### Can I use this on Devnet?
 
@@ -404,7 +404,6 @@ Contact us in Discord for setup assistance.
 
 * **Documentation**: This GitBook
 * **Discord**: [Join Grape Community](https://discord.gg/grape)
-* **GitHub**: [Issues & Discussions](https://github.com/Grape-Labs/grape-verification)
 * **Twitter**: [@grapeprotocol](https://twitter.com/grapeprotocol)
 
 #### How do I report a bug?
