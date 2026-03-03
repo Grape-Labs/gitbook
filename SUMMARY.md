@@ -25,7 +25,7 @@
     * [Metrics](governance-ui/dao/metrics.md)
     * [Realtime](governance-ui/dao/realtime.md)
   * [Installation](governance-ui/installation.md)
-* [OG Reputation & Vine](vine/README.md)
+* [OG Reputation Spaces](vine/README.md)
   * [About](vine/about.md)
   * [Dashboard UI](vine/dashboard.md)
   * [OG Reputation Program](vine/dashboard-1.md)
