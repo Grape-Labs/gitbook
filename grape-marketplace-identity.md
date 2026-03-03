@@ -1,6 +1,21 @@
 # Grape Marketplace / Identity
 
-## Grape.art
+### Grape.art (Archived)
+
+The Grape.art interface has been retired.
+
+This application depended on legacy integrations that are no longer maintained or operational. As a result, the hosted URL is no longer active.
+
+The repository remains publicly available for:
+
+* Historical reference
+* Architectural review
+* Educational purposes
+* Community forks or experimentation
+
+Developers are welcome to build from it as a reference implementation.
+
+Github [https://github.com/Grape-Labs/grape-art](https://github.com/Grape-Labs/grape-art)
 
 The first social, stateless, marketplace built by Grape composed with numerous primitives from the Solana Ecosystem including:
 
