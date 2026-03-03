@@ -22,6 +22,8 @@
   * [Grape Access Program](grape-access/grape-access-program.md)
   * [Grape Access Client (API/SDK)](grape-access/grape-access-client-api-sdk.md)
   * [Access Discord Bot](grape-access/access-discord-bot.md)
+* [Grape Identity](grape-identity/README.md)
+  * [Page 1](grape-identity/page-1.md)
 * [Governance UI](<README (1).md>)
   * [About](governance-ui/about.md)
   * [Directory](governance-ui/directory.md)
