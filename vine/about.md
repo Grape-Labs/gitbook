@@ -2,40 +2,29 @@
 
 <figure><img src="../.gitbook/assets/apple-touch-icon.png" alt=""><figcaption></figcaption></figure>
 
-#### Purpose
+### About OG Reputation Spaces
 
-OG Reputation (formerly Vine Reputation) is an on-chain reputation protocol built on Solana Mainnet that transparently tracks, recognizes, and rewards meaningful participation within DAOs and online communities.
+OG Reputation is Grape’s reputation infrastructure for Solana communities.\
+It gives DAOs a clear, on-chain way to track participation over time, apply seasonal reputation logic, and turn that data into usable community signals for governance, recognition, and incentives.
 
-OG is not a financial token.
+### What We’ve Built
 
-It is a verifiable, season-based reputation system designed to measure contribution — not capital.
+We’ve built the Vine Dashboard as a complete operating layer for DAO reputation:
 
-OG now operates as a complete ecosystem:
+* **Reputation Spaces:** Create and manage DAO-specific reputation spaces tied to on-chain config.
+* **Admin Controls:** Update seasons, decay settings, authority, and metadata; add, reset, transfer, and bulk-import reputation.
+* **Metadata + Branding:** Upload and manage project metadata (including theme data and assets) with storage integration.
+* **Leaderboards:** Run both token-based and reputation-based leaderboards with export tools and weighted randomizer flows.
+* **Shareable Reputation Cards:** Generate wallet/DAO reputation cards and dynamic social preview images.
+* **DAO Discovery + Routing:** Browse spaces in a directory and access dedicated per-DAO dashboard routes.
+* **PWA Experience:** Support installable app behavior with dynamic manifest and DAO-branded icons.
+* **Wallet + RPC Flexibility:** Integrate Solana wallets and configurable RPC endpoints for reliable access across environments.
 
-* 🟣 On-chain Mainnet program
-* 📦 Developer SDK (NPM package)
-* 🤖 Discord automation bot
-* 🧩 Multi-DAO scalable architecture
-
-***
-
-### Objective
-
-OG Reputation establishes a fair, auditable, and programmable recognition framework for DAO participation.
-
-By separating reputation from financial value and anchoring it directly on-chain, OG ensures:
-
-* Contributions are verifiable
-* Recognition is equitable
-* Governance remains transparent
-* Historical participation is preserved
-* Automation can scale community rewards
-
-OG enables DAOs to reward engagement without introducing token inflation or financial speculation.
+OG Reputation turns raw participation data into a branded, transparent, and actionable reputation product for DAOs.
 
 ***
 
-### What OG Reputation Now Includes
+### What OG Reputation Includes
 
 #### 🟢 1. Mainnet Reputation Protocol
 
@@ -60,8 +49,6 @@ OG provides an official NPM SDK that allows developers to:
 * Start and close seasons
 * Query user reputation on-chain
 * Integrate OG into dApps, dashboards, or analytics tools
-
-<br>
 
 This enables seamless integration into:
 
@@ -116,8 +103,6 @@ Reputation can be:
 
 ### Why OG Reputation Exists
 
-<br>
-
 DAOs need a system that:
 
 * Measures contribution beyond token balance
@@ -125,8 +110,6 @@ DAOs need a system that:
 * Preserves historical participation
 * Supports automation
 * Scales across multiple communities
-
-<br>
 
 OG solves this with programmable, season-based, non-financial reputation.
 
