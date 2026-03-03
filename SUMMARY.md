@@ -18,7 +18,6 @@
   * [Frequently Asked Questions](grape-verification/frequently-asked-questions.md)
   * [Grape Verification Discord Bot](grape-verification/grape-verification-discord-bot.md)
 * [Grape Access](grape-access/README.md)
-  * [About](grape-access/about.md)
   * [Grape Access Console UI](grape-access/grape-access-console-ui.md)
   * [Grape Access Program](grape-access/grape-access-program.md)
   * [Grape Access Client (API/SDK)](grape-access/grape-access-client-api-sdk.md)
