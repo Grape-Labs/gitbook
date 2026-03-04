@@ -89,6 +89,6 @@ Randomizer (optional UI section)
 
 
 
-{% embed url="https://vine.governance.so" %}
+{% embed url="https://reputation.governance.so" %}
 
 {% embed url="https://github.com/Grape-Labs/grape-vine-dashboard" %}
